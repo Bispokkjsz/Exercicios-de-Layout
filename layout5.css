@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 30px;
+    height: 50px;
+    width: 50px;
+}
+body{
+    flex-direction: row;
+    height: 50px;
+    widght: 50px;
+    display: flex;
+}
+
+.Nav{
+    background-color: pink
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.Header{
+    background-color: red;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.Article{
+    background-color: green;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+.Aside{
+    background-color: orange;
+    width: 10vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.Footer{
+    background-color: purple;
+    height: 15vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}

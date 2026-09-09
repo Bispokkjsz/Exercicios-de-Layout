@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 
+}
+
+body{
+    flex-direction: row;
+    display: flex;
+    height: 100vh;
+    flex: grow 1;
+}
+
+.header{
+    background-color: red;
+    height: 15vh;
+    width: 80vw;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.Main{
+    height: 80vh;
+    display:flex;
+}
+
+
+.Article{
+    background-color: green;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.footer{
+    background-color: purple;
+    height: 15vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+.Nav{
+    height: 80vh;
+    width: 15vw;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.Aside{
+    background-color: blueviolet;
+    width: 10vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
