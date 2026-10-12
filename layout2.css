@@ -1,57 +1,62 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    font-size: 75px;
 }
 
-body{
-    flex-direction: column;
-    display: flex;
+body {
     height: 100vh;
-    flex: grow 1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
-.header{
-    background-color: red;
-    height: 10vh;
+.header {
+    display: flex;
+    background-color: tomato;
+    height: 100px;
+    font-size: 48px; 
     align-items: center;
     justify-content: center;
+}
+
+.main {
     display: flex;
-}
-
-.Main{
-    height: 80vh;
-    display:flex;
-}
-
-
-.Article{
-    background-color: green;
+    font-size: 48px;
     flex-grow: 1;
-    justify-content: center;
-    align-items: center;
-    display: flex;
 }
 
-.footer{
+.nav{
+   display: flex;
+   background-color: pink;
+   align-items: center;
+   justify-content: center;
+   width: 10vw;
+}
+
+.article{
+    display: flex;
+    background-color: green;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+.aside{
+    display: flex;
+    background-color: salmon;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    width: 10vw;
+    
+}
+
+.footer {
+    display: flex;
     background-color: purple;
-    height: 10vh;
+    height: 100px;
+    font-size: 48px; 
     align-items: center;
     justify-content: center;
-    display: flex;
-
 }
-Nav{
-    background-color: aqua;
-     justify-content: center;
-    align-items: center;
-    display: flex;
-}
-Aside{
-    background-color: blueviolet;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
-
